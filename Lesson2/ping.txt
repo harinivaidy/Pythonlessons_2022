@@ -1,0 +1,22 @@
+
+
+
+cisco4#
+cisco4#terminal width 511
+cisco4#terminal length 0
+cisco4#
+cisco4#
+cisco4#ping
+Protocol [ip]: ip
+Target IP address: 8.8.8.8
+Repeat count [5]: 100
+Datagram size [100]: 100
+Timeout in seconds [2]: 2
+Extended commands [n]: n
+Sweep range of sizes [n]: n
+Type escape sequence to abort.
+Sending 100, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Success rate is 100 percent (100/100), round-trip min/avg/max = 1/2/20 ms
+cisco4#
